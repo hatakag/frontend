@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.box{
+  float: left;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+select, option { 
+  width: 580px; 
+}
+
+.ui-tabs .ui-tabs-nav li a {float: left; padding: .5em 1em; text-decoration: none; font-size:7pt !important;}
+
+.overlay{
+  position: absolute;
+  top: 57%;
+  left: 69%;
+  width: 25%;
+  height: 8%;
+  z-index: 10;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.4); /*dim the background*/
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  font-size: 1vw;
+  padding: 10px;
+}
