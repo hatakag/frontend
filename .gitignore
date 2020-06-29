@@ -22,4 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/src/data
+/src/data/fr_en
+/src/data/ja_en
+/src/data/zh_en

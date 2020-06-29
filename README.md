@@ -1,5 +1,6 @@
 # User interface for demostration and visualization
 
+This is an user interface to demoststrate the results of my [proposed model](https://github.com/hatakag/optimized_model.git).
 
 ## Prerequisites
 
@@ -9,10 +10,7 @@
 
 * Download or clone the project from [here](https://github.com/hatakag/frontend.git)
 * Change working directory (cd) to the project folder
-* In this folder, open the command line and enter
-```
-npm install
-```
+* In this folder, open the command line and enter ```npm install```
 
 ## Datasets
 
@@ -20,7 +18,7 @@ npm install
 
 Initial datasets are from [HGCN-JE-JR](https://github.com/StephanieWyt/HGCN-JE-JR).
 
-Run the [proposed model](https://github.com/hatakag/optimized_model.git) to get the final-output-vectors files or download fully from [here](https://drive.google.com/drive/folders/1ur9vG4VnmDaZFvoJCajXB5Zw-IpAr9iK?usp=sharing)
+> Run the [proposed model](https://github.com/hatakag/optimized_model.git) to get the final-output-vectors files or download fully from [here](https://drive.google.com/drive/folders/1ur9vG4VnmDaZFvoJCajXB5Zw-IpAr9iK?usp=sharing)
 
 Take the dataset DBP15K (ZH-EN) as an example, the folder "zh_en" contains:
 * ent_ids_1: ids for entities in source KG (ZH);
@@ -38,3 +36,4 @@ Take the dataset DBP15K (ZH-EN) as an example, the folder "zh_en" contains:
 
 * cd to the project folder
 * In command line, run ```npm start``` and your browser will open the interface
+* In the interface, you can open the datasets we setup before and select the node you want to see its alignments.
